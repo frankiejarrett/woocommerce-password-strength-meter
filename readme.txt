@@ -21,9 +21,15 @@ The password strength meter is displayed when customers register during checkout
 
 == Frequently Asked Questions ==
 
-= I have a question? =
+= Are users forced to choose a strong password? =
 
-Here is the answer.
+No, it simply makes users aware of their password "score" to encourage them to use a strong one, it does not block them from completing the checkout process in any way.
+
+= How is password strength determined? =
+
+Password strength is measured using Dropbox's [zxcvbn library](https://blogs.dropbox.com/tech/2012/04/zxcvbn-realistic-password-strength-estimation/) that is able to smartly measure password entropy.
+
+It is the same library that WordPress core has used for checking password strength in the WordPress Admin [since version 3.7](https://codex.wordpress.org/Version_3.7#Highlights).
 
 == Screenshots ==
 
