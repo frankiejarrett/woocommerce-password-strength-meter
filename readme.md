@@ -17,7 +17,9 @@ Display a password strength meter when customers register during checkout.
 
 ## Description ##
 
-@TODO
+The first line of defense for securing your WooCommerce store is ensuring your customers are using strong passwords.
+
+Encourage the use of strong passwords by showing customers the strength of their password during account creation on the checkout page.
 
 ## Frequently Asked Questions ##
 
