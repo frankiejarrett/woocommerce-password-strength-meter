@@ -27,6 +27,9 @@ Here is the answer.
 
 ## Screenshots ##
 
+### Customers can see their password's strength when registering for an account during checkout.
+
+![Customers can see their password's strength when registering for an account during checkout.](assets/screenshot-1.png)
 
 ## Changelog ##
 

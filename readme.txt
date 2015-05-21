@@ -23,7 +23,7 @@ Here is the answer.
 
 == Screenshots ==
 
-1. An important example.
+1. Customers can see their password's strength when registering for an account during checkout.
 
 == Changelog ==
 
