@@ -1,6 +1,6 @@
 === WooCommerce Password Strength Meter ===
 Contributors: fjarrett
-Tags: account, cart, checkout, ecommerce, passwords, security, shop, shopping, store, woocommerce
+Tags: account, checkout, ecommerce, passwords, security, shop, shopping, store, woocommerce
 Requires at least: 4.0
 Tested up to: 4.2
 Stable tag: 1.0.0

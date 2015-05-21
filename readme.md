@@ -4,7 +4,7 @@
 Display a password strength meter when customers register during checkout.
 
 **Contributors:** [fjarrett](https://profiles.wordpress.org/fjarrett)  
-**Tags:** [account](https://wordpress.org/plugins/tags/account), [cart](https://wordpress.org/plugins/tags/cart), [checkout](https://wordpress.org/plugins/tags/checkout), [ecommerce](https://wordpress.org/plugins/tags/ecommerce), [passwords](https://wordpress.org/plugins/tags/passwords), [security](https://wordpress.org/plugins/tags/security), [shop](https://wordpress.org/plugins/tags/shop), [shopping](https://wordpress.org/plugins/tags/shopping), [store](https://wordpress.org/plugins/tags/store), [woocommerce](https://wordpress.org/plugins/tags/woocommerce)  
+**Tags:** [account](https://wordpress.org/plugins/tags/account), [checkout](https://wordpress.org/plugins/tags/checkout), [ecommerce](https://wordpress.org/plugins/tags/ecommerce), [passwords](https://wordpress.org/plugins/tags/passwords), [security](https://wordpress.org/plugins/tags/security), [shop](https://wordpress.org/plugins/tags/shop), [shopping](https://wordpress.org/plugins/tags/shopping), [store](https://wordpress.org/plugins/tags/store), [woocommerce](https://wordpress.org/plugins/tags/woocommerce)  
 **Requires at least:** 4.0  
 **Tested up to:** 4.2  
 **Stable tag:** 1.0.0  
