@@ -61,11 +61,8 @@ class WC_Password_Strength_Meter {
 
 		define( 'WC_PASSWORD_STRENGTH_METER_URL', plugins_url( '/', __FILE__ ) );
 
-		// Enqueue scripts and styles during checkout
+		// Enqueue scripts and styles during checkout and on the account page
 		add_action( 'wp_enqueue_scripts', array( $this, 'enqueue_scripts' ) );
-
-		// Add password strength meter element to the registration form during checkout
-		add_action( 'woocommerce_after_checkout_registration_form', array( $this, 'password_strength_html' ) );
 	}
 
 	/**
@@ -117,33 +114,13 @@ class WC_Password_Strength_Meter {
 	 * @return void
 	 */
 	public function enqueue_scripts() {
-		if ( ! is_checkout() ) {
+		if ( ! is_checkout() && ! is_account_page() ) {
 			return;
 		}
 
 		wp_enqueue_script( 'password-strength-meter' );
-		wp_enqueue_script( 'wc-password-strength', WC_PASSWORD_STRENGTH_METER_URL . 'ui/wc-password-strength.min.js', array( 'jquery', 'password-strength-meter' ), self::VERSION );
-		wp_enqueue_style( 'wc-password-strength', WC_PASSWORD_STRENGTH_METER_URL . 'ui/wc-password-strength.min.css', array(), self::VERSION );
-	}
-
-	/**
-	 * HTML markup for password strength meter
-	 *
-	 * Outputs the password strength element on the checkout
-	 * page below the registration form. This element is targeted
-	 * with the enqueued scripts and styles.
-	 *
-	 * @action woocommerce_after_checkout_registration_form
-	 *
-	 * @access public
-	 * @since 1.0.0
-	 *
-	 * @return void
-	 */
-	public function password_strength_html() {
-		?>
-		<p id="wc-pass-strength-result"></p>
-		<?php
+		wp_enqueue_script( 'wc-password-strength', WC_PASSWORD_STRENGTH_METER_URL . 'ui/wc-password-strength.js', array( 'jquery', 'password-strength-meter' ), self::VERSION );
+		wp_enqueue_style( 'wc-password-strength', WC_PASSWORD_STRENGTH_METER_URL . 'ui/wc-password-strength.css', array(), self::VERSION );
 	}
 
 }
