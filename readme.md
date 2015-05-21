@@ -13,8 +13,6 @@ Display a password strength meter when customers register during checkout.
 **WC requires at least:** 2.1.0  
 **WC tested up to:** 2.3.8  
 
-[![Build Status](https://travis-ci.org/fjarrett/woocommerce-password-strength-meter.png?branch=master)](https://travis-ci.org/fjarrett/woocommerce-password-strength-meter) 
-
 ## Description ##
 
 The first line of defense for securing any WooCommerce store is to ensure that customers are using strong passwords.
