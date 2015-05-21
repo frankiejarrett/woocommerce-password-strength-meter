@@ -98,13 +98,13 @@ class WC_Password_Strength_Meter {
 	}
 
 	/**
-	 * Enqueue front-end scripts
+	 * Enqueue scripts and styles on the checkout and account pages
 	 *
 	 * We will enqueue the `password-strength-meter` script that
 	 * comes bundled with core that does a great job checking
-	 * not only the length of the password but its entropy score.
+	 * not just the length of the password but its entropy score.
 	 * In addition, custom JS and CSS will be enqueued to target
-	 * the strength meter element.
+	 * add the the strength meter element and target it with styles.
 	 *
 	 * @action wp_enqueue_scripts
 	 *
