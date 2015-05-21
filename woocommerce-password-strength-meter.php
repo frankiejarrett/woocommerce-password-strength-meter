@@ -119,8 +119,8 @@ class WC_Password_Strength_Meter {
 		}
 
 		wp_enqueue_script( 'password-strength-meter' );
-		wp_enqueue_script( 'wc-password-strength', WC_PASSWORD_STRENGTH_METER_URL . 'ui/wc-password-strength.js', array( 'jquery', 'password-strength-meter' ), self::VERSION );
-		wp_enqueue_style( 'wc-password-strength', WC_PASSWORD_STRENGTH_METER_URL . 'ui/wc-password-strength.css', array(), self::VERSION );
+		wp_enqueue_script( 'wc-password-strength', WC_PASSWORD_STRENGTH_METER_URL . 'ui/wc-password-strength.min.js', array( 'jquery', 'password-strength-meter' ), self::VERSION );
+		wp_enqueue_style( 'wc-password-strength', WC_PASSWORD_STRENGTH_METER_URL . 'ui/wc-password-strength.min.css', array(), self::VERSION );
 	}
 
 }
